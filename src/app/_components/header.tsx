@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function Header() {
-  return <nav className="flex items-center m-4 text-[.75rem] border border-gray-200 rounded-full">
+  return <nav className="flex items-center text-[.75rem] border border-gray-200 rounded-full">
     <div className="p-1  items-center flex gap-2">
         <Image 
         className="rounded-full" 
