@@ -5,7 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        top: {
+          "0%": { top: "1000px" },
+          "50%": { top: "250px" },
+          "100%":{top:'300px'}
+        }
+      },
+      animation: {
+        top: "top 3000ms ease-in-out"
+      },
+
+    }
   },
   plugins: [],
 }
