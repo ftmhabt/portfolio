@@ -7,7 +7,7 @@ import Work from "./components/work";
 function App() {
   const [work, setWork]: [work: string, setWork: (arg: string) => void] =
     useState("");
-    const [effect, setEffect] = useState(false);
+    const [effect, setEffect] = useState(0);
   return (
     <div >
       <Header />
