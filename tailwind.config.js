@@ -8,16 +8,17 @@ export default {
     extend: {
       keyframes: {
         top: {
-          "0%": { top: "1000px" },
-          "50%": { top: "250px" },
-          "100%":{top:'300px'}
-        }
+          "0%": { top: "var(--dynamic-top)" },
+          "50%": { top: "calc(var(--dynamic-top) / 1.5)" }, 
+          "100%": { top: "var(--dynamic-top)" }, 
+        },
       },
       animation: {
-        top: "top 3000ms ease-in-out"
+        top: "top 3000ms ease-in-out",
       },
 
     }
   },
   plugins: [],
 }
+

@@ -14,3 +14,11 @@ html{
 ::-webkit-scrollbar-thumb{
     background: #ff0000;
 }
+
+:root {
+    --dynamic-top: 600px;
+}
+  
+.work{
+    top: var(--dynamic-top);
+}
