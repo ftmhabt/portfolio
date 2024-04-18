@@ -12,7 +12,7 @@ export default function Work({
 }) {
   useEffect(() => {
     setIsAnimating(true);
-  }, [workId]);
+  }, [isAnimating]);
 
   const height=document.documentElement.clientHeight;
   const top = Math.round(height<700?height/1.3:height/1.2);
