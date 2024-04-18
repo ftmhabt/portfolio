@@ -23,13 +23,16 @@ export default function Work({
   return (
     work && (
       <div
-        className={`work absolute w-screen bg-black text-white p-[1rem] left-0 ${
+        className={`work absolute w-screen bg-black text-white p-[2rem] left-0 flex flex-col sm:flex-row gap-[1rem] ${
           isAnimating && "animate-top"
         }`}
       >
-        <div>{work.name}</div>
+        <div>
+        <div className="mb-[1rem]">{work.name}</div>
         <div>{work.description}</div>
-        <img src={work.imageUrl} alt={work.name} />
+
+        </div>
+        <img className="sm:w-5/12" src={work.imageUrl} alt={work.name} />
       </div>
     )
   );
