@@ -1,21 +1,25 @@
+import shopImage from '../assets/shop.png';
+import todoImage from '../assets/todo.png';
+import calcImage from '../assets/calc.png';
+
 const works = [
   {
     id:0,
-    name: 'shop',
-    description: 'they are shit',
-    imageUrl: 'https://images.pexels.com/photos/20881051/pexels-photo-20881051/free-photo-of-under-the-bridge.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load'
+    name: 'unraveled shop',
+    description: 'an e-commerce web application built with React and TypeScript. It offers a comprehensive shopping experience with features for browsing, searching, adding items to cart, managing the cart, checkout and account functionalities.',
+    imageUrl: shopImage
   },
   {
     id:1,
-    name: 'shop2',
-    description: 'they are shit2',
-    imageUrl: 'https://images.pexels.com/photos/20881051/pexels-photo-20881051/free-photo-of-under-the-bridge.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load'
+    name: 'todo app',
+    description: 'This project offers a powerful to-do list application built entirely with JavaScript. It goes beyond basic create, read, delete operations by enabling you to organize your tasks with a tagging system.',
+    imageUrl: todoImage
   },
   {
     id:2,
-    name: 'shop3',
-    description: 'they are shit3',
-    imageUrl: 'https://images.pexels.com/photos/20881051/pexels-photo-20881051/free-photo-of-under-the-bridge.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load'
+    name: 'calculator',
+    description: 'This app provides a user-friendly calculator built entirely with JavaScript. It offers a convenient way to perform basic mathematical operations without relying on external libraries or frameworks.',
+    imageUrl: calcImage
   }
 ]
 
