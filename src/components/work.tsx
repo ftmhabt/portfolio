@@ -23,7 +23,7 @@ export default function Work({
   return (
     work && (
       <div
-        className={`work absolute w-screen left-0 ${
+        className={`work absolute w-screen bg-black text-white p-[1rem] left-0 ${
           isAnimating && "animate-top"
         }`}
       >
