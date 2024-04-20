@@ -6,16 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      keyframes: {
-        bottom: {
-          "70%": { bottom: 0 }, 
-          "100%": { bottom: '-300px' }, 
-        },
-      },
-      animation: {
-        bottom: "bottom 5s forwards 1s",
-      },
-
     }
   },
   plugins: [],
