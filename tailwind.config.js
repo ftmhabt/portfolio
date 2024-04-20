@@ -7,14 +7,13 @@ export default {
   theme: {
     extend: {
       keyframes: {
-        top: {
-          "0%": { top: "var(--dynamic-top)" },
-          "50%": { top: "calc(var(--dynamic-top) / 1.5)" }, 
-          "100%": { top: "var(--dynamic-top)" }, 
+        bottom: {
+          "70%": { bottom: 0 }, 
+          "100%": { bottom: '-300px' }, 
         },
       },
       animation: {
-        top: "top 3000ms ease-in-out",
+        bottom: "bottom 5s forwards 1s",
       },
 
     }

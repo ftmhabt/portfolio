@@ -1,20 +1,15 @@
 import Header from "./components/header";
-import Hero from "./components/hero";
-import WorksList from "./components/works-list";
+import Main from "./components/main";
 import { useState } from "react";
 import Work from "./components/work";
 
 function App() {
-  const [workId, setWorkId]= useState<number|null>(null);
-  const [isAnimating, setIsAnimating] = useState<boolean>(false);
+  const [workId, setWorkId] = useState<number | null>(null);
   return (
-    <div >
+    <div>
       <Header />
-      <div className="fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 flex flex-col md:flex-row md:gap-[3rem] md:items-center justify-evenly md:justify-between h-screen w-[90vw] mt-5">
-        <Hero />
-        <WorksList setWorkId={setWorkId} setIsAnimating={setIsAnimating} />
-      </div>
-      {workId !== null && <Work workId={workId} isAnimating={isAnimating} setIsAnimating={setIsAnimating}/>}
+      <Main setWorkId={setWorkId} />
+      {workId && <Work workId={workId} />}
     </div>
   );
 }

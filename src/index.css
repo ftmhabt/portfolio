@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
-    overflow: scroll;
-    overflow-x: hidden;
-}
-
 body{
     background-color: #f3f2ee;
     color:#1d1d1d;
+}
+
+html{
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar{
@@ -20,10 +20,3 @@ body{
     background: #ff0000;
 }
 
-:root {
-    --dynamic-top: 600px;
-}
-  
-.work{
-    top: var(--dynamic-top);
-}
