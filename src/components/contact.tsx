@@ -1,10 +1,11 @@
 import { useEffect,useRef } from "react";
 export default function Contact({isShowingContact,setIsShowingContact}:{isShowingContact:boolean;setIsShowingContact:(arg:boolean)=>void;}) {
   
-  const ref = useRef(null);
+  const ref = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
-    function handleClickOutside(event) {
-      if (ref.current && !ref.current.contains(event.target)) {
+    function handleClickOutside(event: MouseEvent) {
+      if (ref.current && !ref.current.contains(event.target as Node)) {
         setIsShowingContact(false);
       }
     }
