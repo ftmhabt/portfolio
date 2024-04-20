@@ -11,7 +11,7 @@ function App() {
     <div>
       <Header />
       <Main setWorkId={setWorkId} setIsAnimating={setIsAnimating}/>
-      {workId && <Work workId={workId} isAnimating={isAnimating} setIsAnimating={setIsAnimating}/>}
+      {workId && <Work workId={workId} setWorkId={setWorkId} isAnimating={isAnimating} setIsAnimating={setIsAnimating}/>}
     </div>
   );
 }
