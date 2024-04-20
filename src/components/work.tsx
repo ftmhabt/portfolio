@@ -1,21 +1,19 @@
 import works from "./works-data";
-import { useEffect,useState } from "react";
+import { useEffect } from "react";
 
 export default function Work({
   workId,
+  isAnimating,
+  setIsAnimating,
 }: {
   workId: number | null;
+  isAnimating: boolean;
+  setIsAnimating: (arg: boolean) => void;
 }) {
   
-  const [isAnimating,setIsAnimating]= useState<boolean>(false);
   useEffect(() => {
     setIsAnimating(true);
   }, [workId]);
-
-  // const height = document.documentElement.clientHeight;
-  // const bottom = Math.round(height < 700 ? height / 1.3 : height / 1.2);
-
-  // document.documentElement.style.setProperty("--dynamic-bottom", `${bottom}px`);
 
   const work = works.find((item) => item.id === workId);
 
@@ -23,7 +21,9 @@ export default function Work({
     work && (
       <div
         key={work.id}
-        className={`absolute w-screen bg-[#1d1d1d] text-[#f3f2ee] p-[2rem] top-full left-0 flex flex-col sm:flex-row gap-[1rem]`}
+        className={`absolute transform transition ${
+          isAnimating && "-translate-y-10"
+        } duration-300 w-screen bg-[#1d1d1d] text-[#f3f2ee] p-[2rem] top-full left-0 flex flex-col sm:flex-row gap-[1rem]`}
       >
         <div className="flex flex-col gap-3">
           <h1 className="text-2xl">{work.name}</h1>

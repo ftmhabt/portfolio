@@ -5,11 +5,13 @@ import Work from "./components/work";
 
 function App() {
   const [workId, setWorkId] = useState<number | null>(null);
+  const [isAnimating, setIsAnimating] = useState<boolean>(false);
+
   return (
     <div>
       <Header />
-      <Main setWorkId={setWorkId} />
-      {workId && <Work workId={workId} />}
+      <Main setWorkId={setWorkId} setIsAnimating={setIsAnimating}/>
+      {workId && <Work workId={workId} isAnimating={isAnimating} setIsAnimating={setIsAnimating}/>}
     </div>
   );
 }
