@@ -16,7 +16,7 @@ function App() {
       <Header setIsShowingWrapper={setIsShowingWrapper} setWrapperContent={setWrapperContent}/>
       <Main setWorkId={setWorkId} setIsAnimating={setIsAnimating}/>
       {workId && <Work workId={workId} isAnimating={isAnimating} setIsAnimating={setIsAnimating}/>}
-      <Wrapper isShowingWrapper={isShowingWrapper} setIsShowingWrapper={setIsShowingWrapper}>
+      <Wrapper isShowingWrapper={isShowingWrapper} setIsShowingWrapper={setIsShowingWrapper} wrapperContent={wrapperContent}>
         {wrapperContent==='contact'&&<Contact/>}
         {wrapperContent==='about'&&<About/>}
       </Wrapper>
