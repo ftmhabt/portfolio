@@ -6,7 +6,7 @@ export default function Header({
   setWrapperContent: (arg: string) => void;
 }) {
   return (
-    <nav className="fixed left-1/2 -translate-x-1/2 z-10 flex items-center text-[.75rem] rounded-full top-[1rem] w-[90vw] bg-[#F3F2EE] shadow-[0_8px_30px_rgb(0,0,0,0.04)] sm:shadow-[0_0_0_rgb(0,0,0,0)] bg-transparent">
+    <nav className="fixed left-1/2 -translate-x-1/2 z-20 flex items-center text-[.75rem] rounded-full top-[1rem] w-[90vw] bg-[#F3F2EE] shadow-[0_8px_30px_rgb(0,0,0,0.04)] sm:shadow-[0_0_0_rgb(0,0,0,0)] bg-transparent">
       <div className="p-1 items-center flex gap-2">
         <img
           className="rounded-full"

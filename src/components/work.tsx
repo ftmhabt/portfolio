@@ -20,7 +20,7 @@ export default function Work({
     work && (
       <div
         key={work.id}
-        className={`absolute transform transition ${
+        className={`absolute z-10 transform transition ${
           isAnimating && "-translate-y-24"
         }  duration-300 w-screen bg-[#1d1d1d] text-[#f3f2ee] p-[2rem] top-full left-0 flex flex-col gap-[1rem]`}
       >

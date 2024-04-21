@@ -27,7 +27,7 @@ export default function Wrapper({
   return (
     <div
       ref={ref}
-      className={`fixed h-screen w-screen bg-[#f3f2ee] p-[3rem] z-20
+      className={`fixed h-screen w-screen bg-[#f3f2ee] p-[3rem] z-30
     -right-full transform duration-1000 transition ${
       isShowingWrapper &&
       "sm:-translate-x-1/3 -translate-x-full shadow-[0px_0px_0px_1000px_#00000024]"
