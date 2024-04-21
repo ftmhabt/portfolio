@@ -5,6 +5,7 @@ import Work from "./components/work";
 import Wrapper from "./components/wrapper";
 import Contact from "./components/contact";
 import About from "./components/about";
+import Credit from "./components/credit";
 
 function App() {
   const [workId, setWorkId] = useState<number | null>(null);
@@ -20,6 +21,7 @@ function App() {
         {wrapperContent==='contact'&&<Contact/>}
         {wrapperContent==='about'&&<About/>}
       </Wrapper>
+      <Credit/>
     </div>
   );
 }
