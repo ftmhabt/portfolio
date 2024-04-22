@@ -18,7 +18,7 @@ const works = [
     description: 'This project offers a powerful to-do list application built entirely with JavaScript. It goes beyond basic create, read, delete operations by enabling you to organize your tasks with a tagging system.',
     imageUrl: todoImage,
     tools:['html','css','java script','webpack','moment'],
-    liveUrl:'ftmhabt.github.io/todo-list/',
+    liveUrl:'https://ftmhabt.github.io/todo-list/',
     repoUrl:'https://github.com/ftmhabt/todo-list',
   },
   {
