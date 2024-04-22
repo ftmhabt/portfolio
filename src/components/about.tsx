@@ -3,7 +3,7 @@ export default function About() {
     <div className="sm:w-2/5">
       <div className="flex items-center gap-3">
         <img
-          className="w-[100px] h-[100px]"
+          className="w-[100px] h-[100px] rounded-lg"
           src="https://avatars.githubusercontent.com/u/149063046?v=4"
           alt="fatemeh abtahi profile picture"
         />
@@ -12,7 +12,7 @@ export default function About() {
           <div className="text-[#1d1d1d]/2">Frontend Developer</div>
         </div>
       </div>
-      <div className="my-3">
+      <div className="my-5">
         I'm a passionate frontend developer fueled by a love of turning ideas
         into beautiful and functional web experiences. I thrive in environments
         that challenge me to learn and grow, constantly keeping me on top of the
@@ -24,7 +24,7 @@ export default function About() {
         Are you looking for a frontend developer who thrives on challenges and
         embraces continuous learning?
       </div>
-      <div>
+      <div className="my-2">
         I'd love to hear about your project! Feel free to reach out to me in contact section!
       </div>
     </div>
