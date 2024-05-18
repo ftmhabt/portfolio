@@ -18,7 +18,7 @@ export default function Header({
         <div>ftmhabt</div>
       </div>
       <ul className="flex ml-auto p-1 px-3 gap-5 rounded-full bg-[#F3F2EE]/50 backdrop-blur-sm">
-      <li
+      <li className="cursor-pointer"
           onClick={() => {
             setIsShowingWrapper(true);
             setWrapperContent("about");
@@ -26,7 +26,7 @@ export default function Header({
         >
           About
         </li>
-        <li
+        <li className="cursor-pointer"
           onClick={() => {
             setIsShowingWrapper(true);
             setWrapperContent("contact");

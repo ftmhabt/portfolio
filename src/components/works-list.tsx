@@ -16,7 +16,7 @@ export default function WorksList({
       <ul className="flex flex-col justify-center *:pb-2 font-bold">
         {works.map((work) => (
           <>
-            <li onClick={() => handleClick(work.id)}>{work.name}</li>
+            <li className="cursor-pointer" onClick={() => handleClick(work.id)}>{work.name}</li>
             <hr />
           </>
         ))}
