@@ -15,7 +15,7 @@ export default function Header({
           width="20"
           height="20"
         />
-        <div>ftmhabt</div>
+        <a href="https://github.com/ftmhabt" target="_blank">ftmhabt</a>
       </div>
       <ul className="flex ml-auto p-1 px-3 gap-5 rounded-full bg-[#F3F2EE]/50 backdrop-blur-sm">
       <li className="cursor-pointer"
