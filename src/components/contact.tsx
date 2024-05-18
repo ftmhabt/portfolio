@@ -9,7 +9,7 @@ export default function Contact() {
       <div><Icon path={mdiAt} size={1} />ftmh.a78@gmail.com</div>
       <div><Icon path={mdiPhone} size={1} />+98 922 9688 704</div>
       <div><Icon path={mdiMapMarker} size={1} />Qom, Iran</div>
-      <div><Icon path={mdiLinkedin} size={1} /><a href="https://www.linkedin.com/in/fatemeh-abtahi/">Fatemeh Abtahi</a></div>
+      <div><Icon path={mdiLinkedin} size={1} /><a href="https://www.linkedin.com/in/fatemeh-abtahi/" target='_blank'>Fatemeh Abtahi</a></div>
     </div>
   )
 }
