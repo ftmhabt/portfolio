@@ -2,6 +2,7 @@ import shopImage from "../assets/shop.png";
 import todoImage from "../assets/todo.png";
 import calcImage from "../assets/calc.png";
 import cvImage from "../assets/cv.png";
+import tableImage from "../assets/table.png";
 
 const works = [
   {
@@ -9,7 +10,7 @@ const works = [
     name: "find a table",
     description:
       "a table reservation website that allows users to select a restaurant and check table availability for a specific date and time. Implemented user authorization for secure access.",
-    imageUrl: shopImage,
+    imageUrl: tableImage,
     tools: [
       "next.js",
       "typescript",
