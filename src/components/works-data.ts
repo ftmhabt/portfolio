@@ -8,7 +8,7 @@ import shop2 from "../assets/shop2.png";
 
 const works = [
   {
-    id: 6,
+    id: 7,
     name: "Full E-commerce Website [In Progress]",
     description:
       "A full-featured e-commerce platform with a user dashboard, admin panel, and integrated blog. Users can browse and purchase products, manage their accounts, and administrators can oversee products, orders, and content.",
