@@ -1,16 +1,35 @@
 // import calcImage from "../assets/calc.png";
-import cvImage from "../assets/cv.png";
-import shopImage from "../assets/shop.png";
 import tableImage from "../assets/table.png";
 // import todoImage from "../assets/todo.png";
 import manager1 from "../assets/manager1.png";
 import manager2 from "../assets/manager2.png";
+import shop1 from "../assets/shop1.png";
+import shop2 from "../assets/shop2.png";
+
 const works = [
   {
     id: 6,
-    name: "project manager",
+    name: "Full E-commerce Website [In Progress]",
     description:
-      "A comprehensive project management tool that helps teams plan, track, and collaborate on projects effectively.",
+      "A full-featured e-commerce platform with a user dashboard, admin panel, and integrated blog. Users can browse and purchase products, manage their accounts, and administrators can oversee products, orders, and content.",
+    imageUrls: [shop1, shop2],
+    tools: [
+      "next.js",
+      "typescript",
+      "react",
+      "tailwindcss",
+      "shadcn/ui",
+      "prisma",
+      "postgresql",
+    ],
+    liveUrl: "https://shopftmh.vercel.app/",
+    repoUrl: "https://github.com/ftmhabt/full-shop-prototype",
+  },
+  {
+    id: 6,
+    name: "Project Manager",
+    description:
+      "A project management tool designed to help teams plan, track, and collaborate on projects.",
     imageUrls: [manager2, manager1],
     tools: [
       "next.js",
@@ -26,9 +45,9 @@ const works = [
   },
   {
     id: 5,
-    name: "find a table",
+    name: "Table Reservation",
     description:
-      "A table reservation website that allows users to select a restaurant and check table availability for a specific date and time. Implemented user authorization for secure access.",
+      "A restaurant table reservation website where users can select a restaurant, check table availability, and book for a specific date and time. Includes secure user authorization.",
     imageUrls: [tableImage],
     tools: [
       "next.js",
@@ -42,33 +61,33 @@ const works = [
     liveUrl: "https://find-a-table.vercel.app/",
     repoUrl: "https://github.com/ftmhabt/find-a-table",
   },
-  {
-    id: 1,
-    name: "unraveled shop",
-    description:
-      "an e-commerce web application built with React and TypeScript. It offers a comprehensive shopping experience with features for browsing, searching, adding items to cart, managing the cart, checkout and account functionalities.",
-    imageUrls: [shopImage],
-    tools: [
-      "react",
-      "react-router-dom",
-      "react-toastify",
-      "tailwindcss",
-      "fake store api",
-      "vite",
-    ],
-    liveUrl: "https://the-unraveled-shop.vercel.app/",
-    repoUrl: "https://github.com/ftmhabt/unraveled-shop",
-  },
-  {
-    id: 2,
-    name: "cv builder",
-    description:
-      "This project is a web application built using React and react-pdf that allows users to create and customize their resumes. It provides a user-friendly interface for entering information such as contact details, work experience, education, and skills. The generated resume can be downloaded as a PDF document, ready for sharing with potential employers.",
-    imageUrls: [cvImage],
-    tools: ["react", "css", "react-pdf"],
-    liveUrl: "https://ftm-cv-builder.vercel.app/",
-    repoUrl: "https://github.com/ftmhabt/cv-builder",
-  },
+  // {
+  //   id: 1,
+  //   name: "unraveled shop",
+  //   description:
+  //     "An e-commerce web application offering a seamless shopping experience with product browsing, searching, cart management, checkout, and user account features.",
+  //   imageUrls: [shopImage],
+  //   tools: [
+  //     "react",
+  //     "react-router-dom",
+  //     "react-toastify",
+  //     "tailwindcss",
+  //     "fake store api",
+  //     "vite",
+  //   ],
+  //   liveUrl: "https://the-unraveled-shop.vercel.app/",
+  //   repoUrl: "https://github.com/ftmhabt/unraveled-shop",
+  // },
+  // {
+  //   id: 2,
+  //   name: "cv builder",
+  //   description:
+  //     "A web application for creating and customizing resumes. Users can enter personal information, work experience, education, and skills, then download a PDF version.",
+  //   imageUrls: [cvImage],
+  //   tools: ["react", "css", "react-pdf"],
+  //   liveUrl: "https://ftm-cv-builder.vercel.app/",
+  //   repoUrl: "https://github.com/ftmhabt/cv-builder",
+  // },
   // {
   //   id: 3,
   //   name: "todo app",
