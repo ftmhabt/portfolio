@@ -3,9 +3,9 @@ import tableImage from "../assets/table.png";
 // import todoImage from "../assets/todo.png";
 import manager1 from "../assets/manager1.png";
 import manager2 from "../assets/manager2.png";
-import shop1 from "../assets/shop3.png";
-import shop2 from "../assets/shop4.png";
-import shop3 from "../assets/shop5.png";
+import shop1 from "../assets/shop3.jpeg";
+import shop2 from "../assets/shop4.jpeg";
+import shop3 from "../assets/shop5.jpeg";
 
 const works = [
   {
