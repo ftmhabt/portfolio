@@ -3,16 +3,17 @@ import tableImage from "../assets/table.png";
 // import todoImage from "../assets/todo.png";
 import manager1 from "../assets/manager1.png";
 import manager2 from "../assets/manager2.png";
-import shop1 from "../assets/shop1.png";
-import shop2 from "../assets/shop2.png";
+import shop1 from "../assets/shop3.png";
+import shop2 from "../assets/shop4.png";
+import shop3 from "../assets/shop5.png";
 
 const works = [
   {
     id: 7,
-    name: "Full E-commerce Website [In Progress]",
+    name: "Full E-commerce Website",
     description:
       "A full-featured e-commerce platform with a user dashboard, admin panel, and integrated blog. Users can browse and purchase products, manage their accounts, and administrators can oversee products, orders, and content.",
-    imageUrls: [shop1, shop2],
+    imageUrls: [shop1, shop2, shop3],
     tools: [
       "next.js",
       "typescript",
